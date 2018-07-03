@@ -23,3 +23,15 @@ PRODUCT_NAME := lineage_Escape_CM
 PRODUCT_BRAND := TCL
 PRODUCT_MODEL := TCL_P620M
 PRODUCT_MANUFACTURER := TCL
+
+# These additionals go to /default.prop
+ADDITIONAL_DEFAULT_PROPERTIES += ro.secure=0 \
+ro.allow.mock.location=1 \
+ro.debuggable=1 \
+ro.adb.secure=0 \
+service.adb.root=1 \
+ro.sf.lcd_density=320 \
+ro.sys.usb.storage.type=mtp,adb \
+persist.sys.timezone=Asia/Shanghai \
+ro.xtreme.team.romer=wanyikai0791 \
+ro.xar.team.romer=wanyikai0791
